@@ -119,5 +119,9 @@
 			<dict/>
 		</dict>
 	</array>
+	<key>NSAppleScriptEnabled</key>
+	<true/>
+	<key>OSAScriptingDefinition</key>
+	<string>Ghostty.sdef</string>
 </dict>
 </plist>
