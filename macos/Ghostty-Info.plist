@@ -55,6 +55,8 @@
 	</dict>
 	<key>MDItemKeywords</key>
 	<string>Terminal</string>
+	<key>NSAppleScriptEnabled</key>
+	<true/>
 	<key>NSHighResolutionCapable</key>
 	<true/>
 	<key>NSServices</key>
@@ -98,6 +100,8 @@
 			</array>
 		</dict>
 	</array>
+	<key>OSAScriptingDefinition</key>
+	<string>Ghostty.sdef</string>
 	<key>SUEnableAutomaticChecks</key>
 	<false/>
 	<key>SUPublicEDKey</key>
@@ -105,21 +109,17 @@
 	<key>UTExportedTypeDeclarations</key>
 	<array>
 		<dict>
-			<key>UTTypeIdentifier</key>
-			<string>com.mitchellh.ghosttySurfaceId</string>
-			<key>UTTypeDescription</key>
-			<string>Ghostty Surface Identifier</string>
 			<key>UTTypeConformsTo</key>
 			<array>
 				<string>public.data</string>
 			</array>
+			<key>UTTypeDescription</key>
+			<string>Ghostty Surface Identifier</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.mitchellh.ghosttySurfaceId</string>
 			<key>UTTypeTagSpecification</key>
 			<dict/>
 		</dict>
 	</array>
-	<key>NSAppleScriptEnabled</key>
-	<true/>
-	<key>OSAScriptingDefinition</key>
-	<string>Ghostty.sdef</string>
 </dict>
 </plist>
